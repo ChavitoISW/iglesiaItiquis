@@ -362,7 +362,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .owl-theme .owl-dots .owl-dot {
-    display: block;
+    display: unset;
   }
 
   .owl-theme .owl-dots .owl-dot span {
@@ -395,23 +395,22 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item {
-    background-position: inherit;
-    background-repeat: no-repeat;
     background-attachment: local;
-    background-size: cover;
     height: 650px;
+    background-position:center;
+    background-repeat:no-repeat;
   }
 
   .slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(../images/lateral.jpg);
   }
 
   .slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/frenteSinCampanas.jpg);
   }
 
   .slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(../images/antiguoTemplo.jpg);
   }
 
   .slider .item-second .section-btn {
